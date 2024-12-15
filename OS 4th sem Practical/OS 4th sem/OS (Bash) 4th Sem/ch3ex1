@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+echo Enter a number between 20 and 30
+read n
+until [ $n -ge 20 -a $n -le 30 ]
+	do
+	echo Enter a number between 20 and 30
+	read n
+	done

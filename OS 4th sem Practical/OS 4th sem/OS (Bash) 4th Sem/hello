@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+printf "Hello, %s!\n" "$1"
+shift 1
+printf "Hello, %s!\n" "$1"
